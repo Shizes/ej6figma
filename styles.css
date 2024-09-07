@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    /*fondo del figma*/
+    --fondo: rgba(48, 48, 48, 1);
+    /*texto del figma*/
+    --blanquito: rgba(255, 255, 255, 1);
+    --letritas: rgba(255, 255, 255, 0.8);
+    --textito: rgba(255, 255, 255, 0.6);
+    --verdesito: rgba(39, 174, 96, 1);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    background-color: var(--fondo);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.figma {
+    width: 300px;
+    height: 152px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.figma-parte1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.figma-parte2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figma-parte1 h1 {
+    color: var(--blanquito);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+}
+
+.figma-parte1 h2 {
+    color: var(--letritas);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.figma-parte2 h3 {
+    color: var(--textito);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.figma-parte2 p {
+    color: var(--verdesito);
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
